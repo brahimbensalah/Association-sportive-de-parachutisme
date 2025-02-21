@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbarre from '../components/Navbarre.js'
 import ima from '../images/ima.png'
-import about_img from '../images/about_img.png'
+import about_img from '../images/about.jpg'
 import classes_img1 from '../images/classes_img1.png'
 import classes_img2 from '../images/classes_img2.png'
 import classes_img3 from '../images/classes_img3.png'
@@ -32,12 +32,15 @@ function Home() {
             <div className="container">
               <div className="carousel-caption">
                 <div className="text-bg">
+                
                   <h1>
-                    skating<span className="midil_img"> board</span>
+                  Parachuting  and <br/> aeronautical <br/>activities
                   </h1>
                   <figure>
-                    <img src={ima} alt="#" />
+                    <img src="	https://skycaptain.themerex.net/splash/images/header/chute.png" alt="#" style={{height:"500px"}} />
+                    {/* <img src={ima} alt="#" /> */}
                   </figure>
+                 
                   <p>
                     It is a long established fact that a reader will be <br />{" "}
                     distracted by the readable content of a page when
@@ -58,7 +61,8 @@ function Home() {
                     skating<span className="midil_img"> board</span>
                   </h1>
                   <figure>
-                    <img src={ima} alt="#" />
+                    <img src={ima} alt="#"   />
+                    
                   </figure>
                   <p>
                     It is a long established fact that a reader will be <br />{" "}
@@ -138,33 +142,92 @@ function Home() {
     {/* end banner */}
     {/* about section */}
     <div id="about" className="about afbecros">
-      <div className="container">
-        <div className="row ">
-          <div className="col-md-12">
-            <div className="titlepage">
-              <h2>About</h2>
-              <figure>
-                <img src={about_img} alt="#" />
-              </figure>
-              <p>
-                {" "}
-                It is a long established fact that a reader will be distracted by
-                the readable content of a page when looking at its layout. The
-                point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using 'Content here,
-                content here', making it It is a long established fact that a
-                reader will be distracted by the readable content of a page when
-                lookingusing Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using 'Content here,
-                content here', making it{" "}
-              </p>
-              <a className="read_more" href="#">
-                Read More
-              </a>
-            </div>
+    <div className="container py-5">
+  <div id="about" className="about afbecros">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div
+            className="titlepage text-center"
+            style={{
+              background: "white",
+              padding: 20,
+              // borderRadius: 10,
+              // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+              marginBottom: 20
+            }}
+          >
+            <h2>About</h2>
+            <br/><br/>
+
+
+            <figure>
+              <img
+                src={about_img}
+                alt="Présentation de l'association"
+                style={{
+                  width: "100%",
+                  maxWidth: 800,
+                  maxHeight: 600,
+                  display: "block",
+                  margin: "0 auto 20px",
+                  borderRadius: 10
+                }}
+              />
+            </figure>
+
+            <p>
+              L'Association Sportive de Parachutisme et Activités Aéronautiques
+              Associées est une école spécialisée dans la formation et la
+              pratique des sports aériens, principalement le parachutisme. Elle
+              offre un cadre structuré et sécurisé pour les amateurs de
+              sensations fortes souhaitant découvrir ou se perfectionner dans
+              les disciplines aéronautiques.
+            </p>
+            <br/><br/>
+            <h3>Missions et Activités</h3>
+            <br/>
+            <ul className="text-start">
+              <li>
+                <strong>Formation au parachutisme</strong> : Initiation,
+                progression et perfectionnement des pratiquants, encadrés par
+                des instructeurs qualifiés.
+              </li>
+              <li>
+                <strong>Baptêmes de saut</strong> : Expérience unique de saut en
+                tandem pour les débutants.
+              </li>
+              <li>
+                <strong>Programmes de progression</strong> : Formations PAC
+                (Progression Accompagnée en Chute) pour une autonomie rapide.
+              </li>
+              <li>
+                <strong>Activités aériennes annexes</strong> : Pilotage d’ULM,
+                vols en soufflerie, sensibilisation aux métiers de
+                l’aéronautique.
+              </li>
+              <li>
+                <strong>Événements et compétitions</strong> : Organisation de
+                stages et de compétitions nationales et internationales.
+              </li>
+            </ul>
+            <br/><br/>
+            <h3>Encadrement et Sécurité</h3>
+            <br/>
+            <p>
+              L’école met un point d'honneur à garantir la sécurité de ses
+              pratiquants grâce à un matériel de pointe, des procédures
+              rigoureuses et une équipe d’instructeurs expérimentés agréés par
+              les instances de l’aviation civile.
+            </p>
+           
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
     </div>
     {/* about section */}
     {/* classes section */}
@@ -181,39 +244,33 @@ function Home() {
           <div className="col-md-4">
             <div className="classes_box">
               <figure>
-                <img src={classes_img1} alt="#" />
+                <img src="https://skycaptain.themerex.net/wp-content/uploads/2019/02/image-21-copyright.jpg" alt="#" />
               </figure>
-              <h3>skating</h3>
+              <h3>slasse1</h3>
             </div>
           </div>
           <div className="col-md-4">
             <div className="classes_box">
               <figure>
-                <img src={classes_img2} alt="#" />
+                <img src="https://templatekit.jegtheme.com/skydiva/wp-content/uploads/sites/294/2022/06/paragliding-photo-live-life-to-the-fullest-sport-hobby--e1655954832818.jpg" alt="#" />
               </figure>
-              <h3>skating</h3>
+              <h3>classe2</h3>
             </div>
           </div>
           <div className="col-md-4">
             <div className="classes_box">
               <figure>
-                <img src={classes_img3} alt="#" />
+                <img src="https://skycaptain.themerex.net/wp-content/uploads/2019/02/image-22-copyright.jpg" alt="#" />
               </figure>
-              <h3>skating</h3>
+              <h3>classe3</h3>
             </div>
           </div>
           <div className="col-md-12">
             <div className="p_fulltext">
               <p>
-                It is a long established fact that a reader will be distracted by
-                the readable content of a page when looking at its layout. The
-                point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using 'Content here,
-                content here', making it It is a long established fact that a
-                reader will be distracted by the readable content of a page when
-                lookingusing Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using 'Content here,
-                content here', making it{" "}
+              L'Association Sportive de Parachutisme et Activités Aéronautiques Associées est une école spécialisée 
+              dans la formation et la pratique des sports aériens, principalement le parachutisme. Elle offre un cadre
+               structuré et sécurisé pour les amateurs de sensations fortes souhaitant découvrir ou se perfectionner dans les disciplines aéronautiques.{" "}
               </p>
               <a className="read_more" href="#">
                 Read More
@@ -257,15 +314,10 @@ function Home() {
                       <div className="row">
                         <div className="col-md-12">
                           <div className="testimonial_box">
-                            <h3>markden</h3>
+                            <h3>⭐ Sophie M. – Une expérience inoubliable !</h3>
                             <p>
-                              ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore
-                              magna aliqua. Ut enim ad minim veniam, quis nostrud
-                              exercitationipsum dolor sit amet, consectetur
-                              adipiscing elit, sed do eiusmod tempor incididunt ut
-                              labore et dolore magna aliqua. Ut enim ad minim
-                              veniam, quis nostrud exercitation
+                            "J’ai toujours rêvé de sauter en parachute, et grâce à cette école, mon premier saut a été une expérience incroyable !
+                             L’équipe est super professionnelle, rassurante et passionnée. Tout était bien encadré, et je me suis sentie en totale sécurité. Hâte de recommencer !"
                             </p>
                           </div>
                         </div>
@@ -279,15 +331,11 @@ function Home() {
                       <div className="row">
                         <div className="col-md-12">
                           <div className="testimonial_box">
-                            <h3>markden</h3>
+                            <h3>⭐ Lucas T. – Formation au top !
+                            </h3>
                             <p>
-                              ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore
-                              magna aliqua. Ut enim ad minim veniam, quis nostrud
-                              exercitationipsum dolor sit amet, consectetur
-                              adipiscing elit, sed do eiusmod tempor incididunt ut
-                              labore et dolore magna aliqua. Ut enim ad minim
-                              veniam, quis nostrud exercitation
+                            "J’ai suivi la formation PAC pour devenir autonome en parachutisme, et je ne peux que recommander cette école ! 
+                            Les instructeurs sont pédagogues, patients et vraiment passionnés. Le matériel est de haute qualité et l’ambiance entre les élèves est géniale. Une aventure unique !"
                             </p>
                           </div>
                         </div>
@@ -301,15 +349,10 @@ function Home() {
                       <div className="row">
                         <div className="col-md-12">
                           <div className="testimonial_box">
-                            <h3>markden</h3>
+                            <h3>⭐ David R. – Sensations fortes garanties !</h3>
                             <p>
-                              ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore
-                              magna aliqua. Ut enim ad minim veniam, quis nostrud
-                              exercitationipsum dolor sit amet, consectetur
-                              adipiscing elit, sed do eiusmod tempor incididunt ut
-                              labore et dolore magna aliqua. Ut enim ad minim
-                              veniam, quis nostrud exercitation
+                            "Que ce soit pour un saut en tandem ou une formation plus poussée, cette école est le lieu idéal pour les amateurs d’adrénaline. 
+                            L’encadrement est impeccable, et le personnel est toujours à l’écoute. J’ai vécu des moments incroyables à chaque saut. Une adresse incontournable pour tous les passionnés d’aéronautique !"
                             </p>
                           </div>
                         </div>

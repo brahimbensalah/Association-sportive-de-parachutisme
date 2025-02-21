@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logo.png'
+import logo from '../images/logo2.png'
 import loading from '../images/loading.gif'
 import menu_icon from '../images/menu_icon.png'
 
@@ -45,8 +45,8 @@ function Navbarre() {
                     <div className="center-desk">
                       <div className="logo">
                         <a href="/">
-                          <img src={logo}  alt="#" />
-                        </a>
+                          <img src={logo}  alt="#" style={{width:"200px"}} />
+                        </a> 
                       </div>
                     </div>
                   </div>

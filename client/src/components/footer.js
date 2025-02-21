@@ -8,27 +8,27 @@ function footer() {
       <div className="footer">
         <div className="container">
           <div className="row">
-            <div className="col-md-8 offset-md-2">
+            <div className="col-md-12 offset-md-2" style={{marginLeft:"0"}}>
               <div className="fid_box">
                 <ul className="location_icon">
                   <li>
                     <a href="#">
                       <i className="fa fa-map-marker" aria-hidden="true" />
                     </a>
-                    <br /> Location
+                    <br /> rue hassine Ben Ali turki menzel jemil 7080
                   </li>
                   <li>
                     <a href="#">
                       <i className="fa fa-phone" aria-hidden="true" />
                     </a>
                     <br />
-                    +01 1234567890
+                    +216 29 433 979
                   </li>
                   <li>
                     <a href="#">
                       <i className="fa fa-envelope" aria-hidden="true" />
                     </a>
-                    <br /> demo@gmail.com
+                    <br /> mahfoudhaouji@gmail.com
                   </li>
                 </ul>
               </div>
@@ -36,12 +36,12 @@ function footer() {
             <div className="col-md-12">
               <div className="dolor">
                 <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitationipsum dolor sit
-                  amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation
+                Basée sur un aérodrome, l'école dispose d’une zone de saut dédiée,
+                 d’un centre de formation moderne, ainsi que d’avions adaptés aux besoins du parachutisme sportif.
+                 <br/>
+
+                L'Association Sportive de Parachutisme et Activités Aéronautiques Associées est ainsi un acteur majeur du parachutisme en France (ou autre pays selon le contexte),
+                 offrant une expérience unique alliant adrénaline, maîtrise technique et passion du ciel. 🚀
                 </p>
               </div>
             </div>

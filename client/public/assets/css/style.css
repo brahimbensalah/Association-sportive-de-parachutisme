@@ -337,7 +337,7 @@ button {
 
 .text-bg h1 {
      color: #080206;
-     font-size: 89px;
+     font-size: 70px;
      line-height: 91px;
      padding-bottom: 45px;
      font-weight: bold;
@@ -364,7 +364,7 @@ button {
 }
 
 .text-bg figure {
-     margin: -27% 0 0 33%;
+     margin: -27% 0 0 50%;
 }
 
 .text-bg figure img {
@@ -460,7 +460,7 @@ button {
 /** about section **/
 
 .about {
-     padding: 130px 0 0px 0;
+     padding: 70px 0 0px 0;
      background-color: #fdfdfd;
      position: relative;
 }
